@@ -17,19 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: desklet.js:302
+#: desklet.js:309
 msgid "Enable refresh"
 msgstr ""
 
-#: desklet.js:306 desklet.js:344
+#: desklet.js:313 desklet.js:351
 msgid "Disable refresh"
 msgstr ""
 
-#: desklet.js:315
+#: desklet.js:322
 msgid "Yarr"
 msgstr ""
 
-#: desklet.js:329
+#: desklet.js:336
 msgid "Loading: feeds ..."
 msgstr ""
 
@@ -275,9 +275,7 @@ msgid "Example Prompt2: Hungarian limerick: 'Foglald össze limerickben.'"
 msgstr ""
 
 #. settings-schema.json->ai_example3->description
-msgid ""
-"Example Prompt3: The point is in the haiku. '俳句のエッセンス      日本語で"
-"は'"
+msgid "Example Prompt3: The point is in the haiku. '俳句のエッセンス      日本語では'"
 msgstr ""
 
 #. settings-schema.json->ai_example4->description
@@ -286,8 +284,7 @@ msgstr ""
 
 #. settings-schema.json->ai_example5->description
 msgid ""
-"Example Prompt5: 'Summarize in 4-8 short bullet points, separtate lines, "
-"English language.\n"
+"Example Prompt5: 'Summarize in 4-8 short bullet points, separtate lines, English language.\n"
 "Omit other references and external links from the summary'"
 msgstr ""
 
@@ -297,8 +294,8 @@ msgstr ""
 
 #. settings-schema.json->ai_systempromptexamples->description
 msgid ""
-"Here are some examples for the AI system prompt. You can rewrite them as you "
-"like."
+"Here are some examples for the AI system prompt. You can rewrite them as you"
+" like."
 msgstr ""
 
 #. settings-schema.json->refreshsettingsbutton->description
@@ -311,4 +308,8 @@ msgstr ""
 
 #. settings-schema.json->enablecopy->description
 msgid "Enable Copy to clipboard button"
+msgstr ""
+
++. manual entry
+msgid "Updated"
 msgstr ""
