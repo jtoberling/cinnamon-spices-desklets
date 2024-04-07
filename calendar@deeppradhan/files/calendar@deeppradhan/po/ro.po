@@ -5,29 +5,118 @@
 #
 msgid ""
 msgstr ""
-"Content-Transfer-Encoding: 8bit\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Language: ro\n"
-"Language-Team: none\n"
-"Last-Translator: Automatically generated\n"
-"MIME-Version: 1.0\n"
-"PO-Revision-Date: 2021-03-18 19:52+0100\n"
-"POT-Creation-Date: 2021-03-18 19:52+0100\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: https://github.com/linuxmint/cinnamon-spices-desklets/"
+"issues\n"
+"POT-Creation-Date: 2024-03-18 11:02-0400\n"
+"PO-Revision-Date: 2021-03-18 19:52+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
 
-#: desklet.js:105
+#: desklet.js:29
+msgid "January"
+msgstr "Ianuarie"
+
+#: desklet.js:29
+msgid "February"
+msgstr "Februarie"
+
+#: desklet.js:29
+msgid "March"
+msgstr "Martie"
+
+#: desklet.js:29
+msgid "April"
+msgstr "Aprilie"
+
+#: desklet.js:29
+msgid "May"
+msgstr "Mai"
+
+#: desklet.js:30
+msgid "June"
+msgstr "Iunie"
+
+#: desklet.js:30
+msgid "July"
+msgstr "Iulie"
+
+#: desklet.js:30
+msgid "August"
+msgstr "August"
+
+#: desklet.js:30
+msgid "September"
+msgstr "Septembrie"
+
+#: desklet.js:30
+msgid "October"
+msgstr "Octombrie"
+
+#: desklet.js:30
+msgid "November"
+msgstr "Noiembrie"
+
+#: desklet.js:31
+msgid "December"
+msgstr "Decembrie"
+
+#. settings-schema.json->first-day->options
+#: desklet.js:34
+msgid "Sunday"
+msgstr "Duminică"
+
+#. settings-schema.json->first-day->options
+#: desklet.js:34
+msgid "Monday"
+msgstr "Luni"
+
+#: desklet.js:34
+msgid "Tuesday"
+msgstr "Marți"
+
+#: desklet.js:34
+msgid "Wednesday"
+msgstr "Miercuri"
+
+#: desklet.js:35
+msgid "Thursday"
+msgstr "Joi"
+
+#: desklet.js:35
+msgid "Friday"
+msgstr "Vineri"
+
+#: desklet.js:35
+msgid "Saturday"
+msgstr "Sâmbătă"
+
+#: desklet.js:135
 msgid "Previous month..."
 msgstr "Luna precedentă..."
 
-#: desklet.js:107
+#: desklet.js:137
 msgid "Next month..."
 msgstr "Luna viitoare..."
 
+#: desklet.js:152
+msgid "Calendar"
+msgstr "Calendar"
+
 #. metadata.json->comments
-msgid "Calendar Desklet provides a highly configurable desklet to display current date and browsable months. It has a number of possible customisations."
-msgstr "Calendar Desklet este un desklet foarte ușor de configurat pentru a afișa data curentă și lunile care pot fi răsfoite. Acesta are o serie de posibilități de personalizare."
+msgid ""
+"Calendar Desklet provides a highly configurable desklet to display current "
+"date and browsable months. It has a number of possible customisations."
+msgstr ""
+"Calendar Desklet este un desklet foarte ușor de configurat pentru a afișa "
+"data curentă și lunile care pot fi răsfoite. Acesta are o serie de "
+"posibilități de personalizare."
 
 #. metadata.json->contributors
 msgid "Deep Pradhan"
@@ -86,7 +175,9 @@ msgstr "Scurt"
 
 #. settings-schema.json->show-weekday->tooltip
 msgid "For day of week; show full name, short name or disable showing"
-msgstr "Pentru ziua săptămânii; afișează numele complet, numele scurt sau dezactivează afișarea."
+msgstr ""
+"Pentru ziua săptămânii; afișează numele complet, numele scurt sau "
+"dezactivează afișarea."
 
 #. settings-schema.json->short-month-name->description
 msgid "Short month name"
@@ -102,7 +193,9 @@ msgstr "Afișează anul"
 
 #. settings-schema.json->show-year->tooltip
 msgid "For year; show all digits, show last two digits or disable showing"
-msgstr "Pentru an; afișează toate cifrele, afișează ultimele două cifre sau dezactivează afișarea."
+msgstr ""
+"Pentru an; afișează toate cifrele, afișează ultimele două cifre sau "
+"dezactivează afișarea."
 
 #. settings-schema.json->show-time->description
 msgid "Show time"
@@ -111,6 +204,22 @@ msgstr "Afișează ora"
 #. settings-schema.json->show-time->tooltip
 msgid "Show or hide time (hours and minutes)"
 msgstr "Afișează sau ascunde ora (ore și minute)"
+
+#. settings-schema.json->use-24h->description
+msgid "Use 24h clock"
+msgstr "Utilizează formatul de 24 ore"
+
+#. settings-schema.json->auto-advance->description
+msgid "Auto-advance"
+msgstr ""
+
+#. settings-schema.json->auto-advance->tooltip
+msgid "When the month changes, update the desklet"
+msgstr ""
+
+#. settings-schema.json->first-day->description
+msgid "First day of week"
+msgstr "Prima zi a săptămânii"
 
 #. settings-schema.json->display->description
 msgid "Desklet style configuration"
@@ -134,11 +243,15 @@ msgstr "Setează aspectul general pe orizontală/verticală a deskletului"
 
 #. settings-schema.json->custom-font-family->description
 msgid "Custom font family for text (blank to use default)"
-msgstr "Familie de fonturi personalizată pentru text (gol pentru a utiliza cea implicită)"
+msgstr ""
+"Familie de fonturi personalizată pentru text (gol pentru a utiliza cea "
+"implicită)"
 
 #. settings-schema.json->custom-font-family->tooltip
 msgid "Set a custom font family for the text (blank to use default font)"
-msgstr "Setează o familie de fonturi personalizată pentru text (gol pentru a utiliza fontul implicit)"
+msgstr ""
+"Setează o familie de fonturi personalizată pentru text (gol pentru a utiliza "
+"fontul implicit)"
 
 #. settings-schema.json->font-size->description
 msgid "Font size (pt)"

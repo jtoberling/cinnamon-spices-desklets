@@ -6,25 +6,129 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-09 12:45+0100\n"
+"Report-Msgid-Bugs-To: https://github.com/linuxmint/cinnamon-spices-desklets/"
+"issues\n"
+"POT-Creation-Date: 2024-03-18 11:02-0400\n"
 "PO-Revision-Date: 2021-02-09 16:50+0100\n"
+"Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: \n"
+"Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.4.1\n"
-"Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
-"Language: sk\n"
 
-#: desklet.js:105
+#: desklet.js:29
+msgid "January"
+msgstr "Január"
+
+#: desklet.js:29
+msgid "February"
+msgstr "Február"
+
+#: desklet.js:29
+msgid "March"
+msgstr "Marec"
+
+#: desklet.js:29
+msgid "April"
+msgstr "Apríl"
+
+#: desklet.js:29
+msgid "May"
+msgstr "Máj"
+
+#: desklet.js:30
+msgid "June"
+msgstr "Jún"
+
+#: desklet.js:30
+msgid "July"
+msgstr "Júl"
+
+#: desklet.js:30
+msgid "August"
+msgstr "August"
+
+#: desklet.js:30
+msgid "September"
+msgstr "September"
+
+#: desklet.js:30
+msgid "October"
+msgstr "Október"
+
+#: desklet.js:30
+msgid "November"
+msgstr "November"
+
+#: desklet.js:31
+msgid "December"
+msgstr "December"
+
+#. settings-schema.json->first-day->options
+#: desklet.js:34
+msgid "Sunday"
+msgstr "Nedeľa"
+
+#. settings-schema.json->first-day->options
+#: desklet.js:34
+msgid "Monday"
+msgstr "Pondelok"
+
+#: desklet.js:34
+msgid "Tuesday"
+msgstr "Utorok"
+
+#: desklet.js:34
+msgid "Wednesday"
+msgstr "Streda"
+
+#: desklet.js:35
+msgid "Thursday"
+msgstr "Štvrtok"
+
+#: desklet.js:35
+msgid "Friday"
+msgstr "Piatok"
+
+#: desklet.js:35
+msgid "Saturday"
+msgstr "Sobota"
+
+#: desklet.js:135
 msgid "Previous month..."
 msgstr "Predchádzajúci mesiac..."
 
-#: desklet.js:107
+#: desklet.js:137
 msgid "Next month..."
 msgstr "Nasledujúci mesiac..."
+
+#: desklet.js:152
+msgid "Calendar"
+msgstr "Kalendár"
+
+#. metadata.json->comments
+msgid ""
+"Calendar Desklet provides a highly configurable desklet to display current "
+"date and browsable months. It has a number of possible customisations."
+msgstr ""
+"Desklet s kalendárom poskytuje vysoko konfigurovateľný desklet, ktorý "
+"zobrazuje aktuálny dátum a prezerateľné mesiace. Obsahuje mnoho možných "
+"prispôsobení."
+
+#. metadata.json->contributors
+msgid "Deep Pradhan"
+msgstr "Deep Pradhan"
+
+#. metadata.json->description
+msgid "Configurable Calendar desklet"
+msgstr "Konfigurovateľný desklet s kalendárom"
+
+#. metadata.json->name
+msgid "Calendar desklet"
+msgstr "Desklet s kalendárom"
 
 #. settings-schema.json->top->description
 msgid "Calendar configuration"
@@ -100,6 +204,22 @@ msgstr "Zobrazenie času"
 #. settings-schema.json->show-time->tooltip
 msgid "Show or hide time (hours and minutes)"
 msgstr "Zobrazí alebo skryje čas (hodiny a minúty)"
+
+#. settings-schema.json->use-24h->description
+msgid "Use 24h clock"
+msgstr "Používať 24 hodinový čas"
+
+#. settings-schema.json->auto-advance->description
+msgid "Auto-advance"
+msgstr ""
+
+#. settings-schema.json->auto-advance->tooltip
+msgid "When the month changes, update the desklet"
+msgstr ""
+
+#. settings-schema.json->first-day->description
+msgid "First day of week"
+msgstr "Prvý deň v týždni"
 
 #. settings-schema.json->display->description
 msgid "Desklet style configuration"
@@ -178,24 +298,3 @@ msgstr "Priehľadnosť (%)"
 #. settings-schema.json->transparency->tooltip
 msgid "Set the transparency of desklet in percentage"
 msgstr "Nastaví priehľadnosť deskletu v percentách"
-
-#. metadata.json->comments
-msgid ""
-"Calendar Desklet provides a highly configurable desklet to display current "
-"date and browsable months. It has a number of possible customisations."
-msgstr ""
-"Desklet s kalendárom poskytuje vysoko konfigurovateľný desklet, ktorý "
-"zobrazuje aktuálny dátum a prezerateľné mesiace. Obsahuje mnoho možných "
-"prispôsobení."
-
-#. metadata.json->contributors
-msgid "Deep Pradhan"
-msgstr "Deep Pradhan"
-
-#. metadata.json->description
-msgid "Configurable Calendar desklet"
-msgstr "Konfigurovateľný desklet s kalendárom"
-
-#. metadata.json->name
-msgid "Calendar desklet"
-msgstr "Desklet s kalendárom"

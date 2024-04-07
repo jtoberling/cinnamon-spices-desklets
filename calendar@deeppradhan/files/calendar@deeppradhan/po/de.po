@@ -6,8 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Calendar Desklet - 1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-18 19:52+0100\n"
+"Report-Msgid-Bugs-To: https://github.com/linuxmint/cinnamon-spices-desklets/"
+"issues\n"
+"POT-Creation-Date: 2024-03-18 11:02-0400\n"
 "PO-Revision-Date: 2021-03-18 19:54+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,13 +19,95 @@ msgstr ""
 "X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: desklet.js:105
+#: desklet.js:29
+msgid "January"
+msgstr "Januar"
+
+#: desklet.js:29
+msgid "February"
+msgstr "Februar"
+
+#: desklet.js:29
+msgid "March"
+msgstr "März"
+
+#: desklet.js:29
+msgid "April"
+msgstr "April"
+
+#: desklet.js:29
+msgid "May"
+msgstr "Mai"
+
+#: desklet.js:30
+msgid "June"
+msgstr "Juni"
+
+#: desklet.js:30
+msgid "July"
+msgstr "Juli"
+
+#: desklet.js:30
+msgid "August"
+msgstr "August"
+
+#: desklet.js:30
+msgid "September"
+msgstr "September"
+
+#: desklet.js:30
+msgid "October"
+msgstr "Oktober"
+
+#: desklet.js:30
+msgid "November"
+msgstr "November"
+
+#: desklet.js:31
+msgid "December"
+msgstr "Dezember"
+
+#. settings-schema.json->first-day->options
+#: desklet.js:34
+msgid "Sunday"
+msgstr "Sonntag"
+
+#. settings-schema.json->first-day->options
+#: desklet.js:34
+msgid "Monday"
+msgstr "Montag"
+
+#: desklet.js:34
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: desklet.js:34
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: desklet.js:35
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: desklet.js:35
+msgid "Friday"
+msgstr "Freitag"
+
+#: desklet.js:35
+msgid "Saturday"
+msgstr "Samstag"
+
+#: desklet.js:135
 msgid "Previous month..."
 msgstr "Voriger Monat…"
 
-#: desklet.js:107
+#: desklet.js:137
 msgid "Next month..."
 msgstr "Nächster Monat…"
+
+#: desklet.js:152
+msgid "Calendar"
+msgstr "Kalender"
 
 #. metadata.json->comments
 msgid ""
@@ -121,6 +204,22 @@ msgstr "Uhrzeit anzeigen"
 #. settings-schema.json->show-time->tooltip
 msgid "Show or hide time (hours and minutes)"
 msgstr "Uhrzeit ein- oder ausblenden (Stunden und Minuten)"
+
+#. settings-schema.json->use-24h->description
+msgid "Use 24h clock"
+msgstr "24-Stundenuhr benutzen"
+
+#. settings-schema.json->auto-advance->description
+msgid "Auto-advance"
+msgstr "Automatisches Weiterblättern"
+
+#. settings-schema.json->auto-advance->tooltip
+msgid "When the month changes, update the desklet"
+msgstr "Aktualisiere das Desklet, wenn sich der Monat ändert"
+
+#. settings-schema.json->first-day->description
+msgid "First day of week"
+msgstr "Erster Tag der Woche"
 
 #. settings-schema.json->display->description
 msgid "Desklet style configuration"
