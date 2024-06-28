@@ -652,13 +652,13 @@ class YarrDesklet extends Desklet.Desklet {
                 +'\n<small>[ ' + item.category.toString().substring(0,80) + ' ]</small>\n\n'
                 + this.formatTextWrap(this.HTMLPartToTextPart(item.description ?? '-' ),100) 
                 ;
-                
-                
+/*                
             let toolTip = new Tooltips.Tooltip(feedButton, toolTipText );
             toolTip._tooltip.style = 'text-align: left;';
             toolTip._tooltip.clutter_text.set_use_markup(true);
             toolTip._tooltip.clutter_text.allocate_preferred_size(Clutter.AllocationFlags.NONE);
             toolTip._tooltip.queue_relayout();
+*/
 
             lineBox.add(feedButton);
 
@@ -820,7 +820,13 @@ class YarrDesklet extends Desklet.Desklet {
                         
                         var resObj = JSON.parse(result);
                         
-                        var aiResponse = resObj.choices[0].message.content;
+                        var aiResponse = "";
+                        if (resObj.hasOwnProperty("error")) {
+                            global.log('ERROR!')
+                            aiResponse = resObj.error.message;
+                        } else {
+                            aiResponse = resObj.choices[0].message.content;
+                        }
                         
                         item.aiResponse = aiResponse;
                         
